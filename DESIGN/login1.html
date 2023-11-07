@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information</title>
+    <style>
+        body {
+            background-image:url(./img/bg1.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-image: linear-gradient(aqua,orange);
+            color:white;
+            width: 50%;
+            height: 50%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h1 {
+            text-align: center;
+        }
+        .home{
+          position: fixed;
+          top: 10px;
+          right: 50%;
+          font-size:50px;
+        }
+        .home button{
+          color:white;
+          background-color:aqua;
+          font-size: 15px;
+          font-family: 'Georgia', 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+      <button><a href=index.html>Home</a></button>
+    </div>
+    <div class="card">
+        <h1>User Information</h1>
+        <p><strong>Username:</strong> JohnDoe123</p>
+        <p><strong>Credit Card Number:</strong> **** **** **** 1234</p>
+        <p><strong>Account Details:</strong> Savings Account</p>
+        <p><strong>Date of Birth:</strong> January 15, 1990</p>
+        <p><strong>PAN Number:</strong> ABCDE1234F</p>
+    </div>
+</body>
+</html>

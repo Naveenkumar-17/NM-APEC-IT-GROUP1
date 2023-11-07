@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers Page</title>
+    <!-- Include Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            background-image: url(./img/bg2.jpeg);
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: #555;
+            margin: 0 10px;
+        }
+
+        .scrolling-cards {
+            display:grid;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px;
+            gap: 20px;
+            text-align: center;
+        }
+
+         .card {
+    position: relative;      
+    width:500px; /* Adjust card width to fit content */
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    padding-left: 30%;
+    padding-right:35%;
+    text-align: center;
+    word-wrap: break-word;
+    
+     /* Wrap long words to the next line */
+    /* overflow: hidden; Hide overflow content */
+}
+
+
+        .card h2 {
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+        .card p {
+            font-size: 1rem;
+            word-wrap: break-word;
+            /* overflow: hidden;
+            text-overflow: ellipsis; */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="circular-button">Home</a>
+    </div>
+
+    <div class="scrolling-cards">
+        <div class="card">
+            <h2>Mobile Recharge</h2>
+            <p>Get 10% cashback on your first mobile recharge using our app. Limited time offer!</p>
+        </div>
+        <div class="card">
+            <h2>Money Transfer</h2>
+            <p>Send money to your contacts and receive a 5% cashback on your first transaction. Save on fees!</p>
+        </div>
+        <div class="card">
+            <h2>DTH Recharge</h2>
+            <p>Recharge your DTH subscription and receive a free month of service for your favorite channels.</p>
+        </div>
+        <div class="card">
+            <h2>Movie Tickets Booking</h2>
+            <p>Book movie tickets through our app and get a 20% discount on your first booking. Enjoy your movie!</p>
+        </div>
+        <div class="card">
+            <h2>Travel Ticket Booking</h2>
+            <p>Plan your next trip with us and enjoy up to 15% off on your flight or train ticket booking. Travel hassle-free!</p>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>
