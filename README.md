@@ -1,52 +1,39 @@
 # NM-APEC-IT-GROUP1
-SOFTWARE
-REQUIREMENTS
-SPECIFICATION
-For
-Money Transfer Application
-Prepared by:-
-Academic Year: 2023-2024
-NAVEENKUMAR I
-BARANIDHARAN R
-GOKULAKRISHNAN K
-VASANTH KUMAR S
+   SOFTWARE REQUIREMENTS SPECIFICATION For Money Transfer Application
+                      Prepared by:-
+               Academic Year: 2023-2024
+                      NAVEENKUMAR I
+                      BARANIDHARAN R
+                      GOKULAKRISHNAN K
+                      VASANTH KUMAR S
 1. Introduction
+ 
 1.1 Purpose
-The main objective of this document is to illustrate the requirements of
-the project Money Transfer Application.The primary purpose of the Money
-Transfer Application is to provide a secure, efficient, and user-friendly platform
-for individuals and businesses to transfer funds electronically.The main
-purposeof this project is to maintain easy circulation system using computers
-and to provide different reports. This project describes the hardware and
-software interface requirements using ERdiagrams and UML diagrams.
+                                     The main objective of this document is to illustrate the requirements of the project Money Transfer Application.The primary purpose of the Money Transfer Application is to provide a secure, efficient, and user-friendly platform for individuals and businesses to transfer funds electronically.The mainpurposeof this project is to maintain easy circulation system using computers and to provide different reports. This project describes the hardware and software interface requirements using ERdiagrams and UML diagrams.
+
 1.2 Document Conventions
- Entire document should be justified.
- Convention for Main title
-Font face:
-Times New
-Roman Font
-style: Bold
-Font Size: 14
- Convention for Sub title
-Font face:
-Times New
-Roman Font
-style: Bold
-Font Size: 12
- Convention for body
-Font face:
-Times New
-Roman Font
-Size: 12
+       Entire document should be justified.
+       Convention for Main title
+        Font face:Times New Roman Font
+        style: Bold
+        Font Size: 14
+       Convention for Sub title
+        Font face:Times New Roman 
+        Font style: Bold
+        Font Size: 12
+       Convention for body
+          Font face:Times New Roman
+          FontSize: 12
+
 1.3 Scope of Development Project
-The scope of the Money Transfer Application development project encompasses a
-comprehensive range of features, functionalities, and deliverables designed to achieve
-the project's objectives. The scope is defined as follows:
+                  The scope of the Money Transfer Application development project encompasses a comprehensive range of features, functionalities, and deliverables designed to achieve the project's objectives. The scope is defined as follows:
+
 1. Money Transfer Functionality:
  Person-to-person (P2P) fund transfers.
  Bill payments for utilities, services, and vendors.
  Business-to-business (B2B) transactions.
  Cross-border money transfers and currency conversion.
+
 2. Account Management:
  User account dashboard for managing transactions.
  Transaction history and statement generation.
