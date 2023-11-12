@@ -1,0 +1,14 @@
+{
+    "name": "money-transfer-backend",
+    "version": "1.0.0",
+    "description": "Backend for Money Transfer Application",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.15",
+      "body-parser": "^1.19.0"
+    }
+}    
