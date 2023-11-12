@@ -1,0 +1,13 @@
+<!-- Add these dependencies -->
+<dependencies>
+    <!-- Spring Data MongoDB -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    </dependency>
+    <!-- MongoDB Driver -->
+    <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongo-java-driver</artifactId>
+    </dependency>
+</dependencies>
